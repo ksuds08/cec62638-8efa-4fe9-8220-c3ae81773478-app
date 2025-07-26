@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeCraft AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-white shadow">
+        <div class="container mx-auto py-4 px-6 flex justify-between items-center">
+            <img src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-eeM7RLe3Wv2HZ7Toub47POas/user-rnGwZEmjnwoUoF8lEvadvt0O/img-5wZkhzNEjpWkUrLBzpJmswZ7.png?st=2025-07-26T03%3A12%3A24Z&se=2025-07-26T05%3A12%3A24Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-25T13%3A46%3A12Z&ske=2025-07-26T13%3A46%3A12Z&sks=b&skv=2024-08-04&sig=/IHvOY8S480yjfqBcADavljpuasb0VgLvKjj3kSpkyE%3D" alt="ResumeCraft AI Logo" class="h-10">
+            <h1 class="text-xl font-semibold text-blue-600">ResumeCraft AI</h1>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8">
+        <section class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">Craft Your Future, One Resume at a Time</h2>
+            <p class="text-lg text-gray-600">An AI-powered resume template generator tailored to your career needs.</p>
+        </section>
+
+        <section id="features" class="grid md:grid-cols-3 gap-8 mb-12">
+            <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold text-blue-600 mb-3">Template Customization</h3>
+                <p>Offers a variety of design templates optimized for different industries and job roles.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold text-blue-600 mb-3">ATS Optimization</h3>
+                <p>Ensures templates are optimized for applicant tracking systems used by employers.</p>
+            </div>
+            <div class="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
+                <h3 class="text-xl font-bold text-blue-600 mb-3">AI Suggestions</h3>
+                <p>Provides AI-driven suggestions for resume improvements and highlights key skills based on job descriptions.</p>
+            </div>
+        </section>
+
+        <section id="get-started" class="text-center">
+            <h2 class="text-2xl font-bold mb-4">Get Started</h2>
+            <form id="resumeForm" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+                <div class="mb-4">
+                    <label for="jobTitle" class="block text-gray-700 font-bold mb-2">Job Title</label>
+                    <input type="text" id="jobTitle" name="jobTitle" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter your job title" required>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400">Generate Template</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-white py-4 mt-12">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-600">&copy; 2023 ResumeCraft AI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
